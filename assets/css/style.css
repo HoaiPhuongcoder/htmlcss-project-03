@@ -327,3 +327,36 @@ a {
   font-size: 1.6rem;
   line-height: 1.75; /* 175% */
 }
+/* Features */
+.features {
+  margin-top: 85px;
+  padding: 85px 0;
+}
+.features__inner {
+  display: flex;
+  column-gap: 130px;
+  align-items: center;
+}
+.features__media {
+  width: 48%;
+}
+.features__images {
+  position: relative;
+  padding: 0 58px 121px 0;
+}
+.features__img {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.features__img:last-child {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 332px;
+  height: 370px;
+}
+.features__btn {
+  margin-top: 38px;
+}
